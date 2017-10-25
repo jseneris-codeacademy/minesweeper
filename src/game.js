@@ -27,10 +27,12 @@ class Game{
     else if (this._board.hasSafeTiles()){
       console.log("You Win");
       this._board.printBoard();
+      console.log('Hello');
     }
     else{
       console.log('Current Board:');
       this._board.printBoard();
+      console.log('Hi');
     }
   }
 }
